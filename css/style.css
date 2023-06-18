@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap");
+@import url(variables.css);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+
+header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 56px;
+}
+
+nav > img {
+  width: 46.88px;
+  height: 41.25px;
+}
+
+/* Removiendo items del header para el movil */
+nav ul,
+header button,
+.mejores:nth-child(2n) {
+  display: none;
+}
+
+/* -MAIN */ 
+
+    /* Banner */
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    padding: 7vw;
+    text-align: right;
+}
+
+.banner article{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+h1{
+    color: var(--color-neutro-mid);
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    line-height: 57px;
+
+}
+
+.banner p{
+    font-weight: 500;
+    line-height: 26px;
+}
+
+button{
+    background-color: var(--color-primario);
+    border: none;
+    border-radius: 50px;
+    color: #FFFFFF;
+    height: 44px;
+    margin: 16px 0;
+    width: 134px;
+}
+
+    /* Sección pros */
+
+.prosYbest{
+    background-color: var(--color-secundario);
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 7vw;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 41.26px;
+}
+
+.prosYbest p{
+    line-height: 24.18px;
+    margin: 20px 0 0;
+}
+
+.pros-lista span{
+    background-color: var(--color-primario);
+    color: #FFFFFF;
+    display: inline-block;
+    text-align: center;
+    vertical-align: center;
+    height: 43px;
+    width: 70px;
+
+}
+
+
+
