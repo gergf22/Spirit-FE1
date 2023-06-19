@@ -64,7 +64,7 @@ h1{
     line-height: 26px;
 }
 
-button{
+button, input[type="submit"]{
     background-color: var(--color-primario);
     border: none;
     border-radius: 50px;
@@ -76,6 +76,7 @@ button{
 
     /* Sección pros */
 
+        /* Banner principal de la sección */
 .prosYbest{
     background-color: var(--color-secundario);
     color: #FFFFFF;
@@ -95,16 +96,144 @@ h2{
     margin: 20px 0 0;
 }
 
+        /* Lista de pros */
+
+.pros-lista div{
+    display: flex;
+    flex-direction: column;
+}
 .pros-lista span{
     background-color: var(--color-primario);
+    border-radius: 50px;
     color: #FFFFFF;
     display: inline-block;
-    text-align: center;
-    vertical-align: center;
     height: 43px;
+    margin-right: 18px;
+    padding: 10px 25px;
     width: 70px;
+}
+
+.pros-lista h4{
+    background-color: rgba(139, 72, 191, 0.3);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    line-height: 23.68px;
+    margin-left: 4vw;
+}
+
+.pros-lista p, .mejores p{
+    color: #B3B2B7;
+    line-height: 25.52px;
+    margin: 10px 9vw;
+}
+
+    /* Mejores del mes */
+
+.best{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.best h3 {
+    color: #242E53;
+    line-height: 61.41px;
 
 }
 
+h3 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.mejores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mejores p{
+    line-height: 47.84px;
+    padding: 0 31px;
+    text-align: center;
+}
+
+.gofor {
+    align-self: center;
+    background-color: var(--color-neutro-mid);
+}
+
+/* Footer */
+
+footer{
+    background-color: var(--color-neutro-dark);
+    display: flex;
+    flex-direction: column;
+}
+
+    /* Form */
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 53px;
+}
+
+form input:first-child{
+    border-radius: 50px;
+    height: 44px;
+    width: 308px;
+}
+
+form input:last-child{
+    width: 63px;
+}
+
+    /* Contactos */
+
+.footerNav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footerNav ul{
+    color: #FFFFFF;
+    padding: 0;
+}
+.footerNav li {
+    list-style-type: none;
+    line-height: 23.78px;
+    padding: 6px 0;
+}
+
+    /* Logo y redes */
+
+.media{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 
+.media ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    list-style-type: none;
+    margin-top: 30px;
+    width: 90%;
+
+}
+
+.media>img{
+    margin: 45px 0;
+}
+
+.derechos p {
+    color:#8C8C94;
+    font-size: 12.5px;
+
+    text-align: center;
+
+}
