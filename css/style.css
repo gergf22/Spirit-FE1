@@ -370,6 +370,11 @@ form input:last-child {
   .media {
     flex-direction: column-reverse;
     flex-grow: 0.2;
+    justify-content: space-around;
+  }
+
+  .media img{
+    margin: 16px 0;
   }
 
   .derechos {
