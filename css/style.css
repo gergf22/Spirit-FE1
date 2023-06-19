@@ -138,7 +138,7 @@ h2 {
 .mejores p {
   color: #b3b2b7;
   line-height: 25.52px;
-  margin: 10px 9vw;
+  margin: 10px 7vw;
 }
 
 /* Mejores del mes */
@@ -303,12 +303,12 @@ form input:last-child {
   }
 
   .pros-lista div {
-    width: 40%;
+    width: 48%;
   }
 
   .pros-lista h4 {
     background-color: #ffffff;
-    margin-left: 3vw;
+    margin-left: 2vw;
   }
 
   .best {
