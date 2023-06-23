@@ -264,7 +264,7 @@ form input:last-child {
   text-align: center;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 500px) {
   /* Header */
 
   nav > img {
