@@ -108,7 +108,7 @@ h2 {
 .pros-lista {
   display: flex;
   flex-wrap: wrap;
-  margin: 60px 0;
+  padding: 60px 0;
 }
 
 .pros-lista div {
@@ -163,11 +163,19 @@ h3 {
 
 .mejores {
   align-items: center;
+  background-color: #FAFAFA;
   display: flex;
   flex-direction: column;
   margin: 40px 0;
+  padding: 40px 0;
+  position: relative;
 }
 
+.mejores img{
+  position: absolute;
+  top: -35px;
+
+}
 .mejores p {
   line-height: 47.84px;
   text-align: center;
@@ -300,6 +308,7 @@ form input:last-child {
 
   .pros-lista {
     justify-content: center;
+    background-color: #FAFAFA;
   }
 
   .pros-lista div {
@@ -307,7 +316,7 @@ form input:last-child {
   }
 
   .pros-lista h4 {
-    background-color: #ffffff;
+    background-color: #FAFAFA;
     margin-left: 2vw;
   }
 
